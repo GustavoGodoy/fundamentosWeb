@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+        </style>
+    <title>Pagina Inicial | Bootstrap</title>
+  </head>
+  <body>
+      <!-- Menu -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(119,0,255,0) 67%);">
+        <a class="navbar-brand" href="#">GODOY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>   
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cards">Cards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#video">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#imagens">Imagens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        <!-- Menu -->
+
+        <!-- Carrossel-->
+
+            <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel" style="margin-top: -5%;">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://www.hdwallpapers.in/download/purge_led_mask_photograper_4k_8k-2560x1440.jpg" alt="Primeiro Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://images.wallpapersden.com/image/download/night-mountains-summer-illustration_65051_1280x720.jpg" alt="Segundo Slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://cutewallpaper.org/21/wallpaper-1280x720/1280x720-Wallpapers-Wallpaper-Cave.jpg" alt="Terceiro Slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+
+              <!--Cards-->
+        
+              <div id="cards" class="container mt-5">
+                <div class="card-deck">
+                    <div class="card">
+                      <img class="card-img-top" src="https://www.teahub.io/photos/full/31-318046_black-panther-wallpaper-pc.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">Pantera Negra</h5>
+                        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="https://wallpapercave.com/wp/wp5486670.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">Anime</h5>
+                        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="https://wallpaperaccess.com/full/639431.jpg" alt="Imagem de capa do card">
+                      <div class="card-body">
+                        <h5 class="card-title">Hyper Beast</h5>
+                        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Atualizados 3 minutos atrás</small>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <!--Cards-->
+              <div class="jumbotron jumbotron-fluid mt-5 mb-5" style="background: rgb(160,27,196);
+              background: linear-gradient(90deg, rgba(160,27,196,0.6811099439775911) 0%, rgba(255,154,0,0.6727065826330532) 50%, rgba(255,64,0,0.5634628851540616) 100%);">
+                <div class="container">
+                  <h1 class="display-4">Bootstrap</h1>
+                  <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non recusandae beatae accusamus dolore cupiditate commodi molestiae minus id eum placeat dolores corrupti totam, distinctio ratione, maxime, laudantium autem quo! Illum!</p>
+                </div>
+              </div>
+              <!--Video-->
+              <div id="video" class="container d-flex align-items-center justify-content-between flex-wrap" style="font-family: 'Staatliches', cursive; font-size: 90px; margin-top: 10%; margin-bottom: 10%;">
+                  
+                  <p>Ouça Racionais</p>
+                  
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/RialprJwpDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 
+
+              </div>
+              <!--Video-->
+              <!--Imagens-->
+              <div id="imagens" style="margin-top: 10%;">
+                <img src="https://mir-s3-cdn-cf.behance.net/v1/assets/e79c07c175b89520b46b02843d1f62f7/4a9b1f90-9588-4f6c-ade9-13378768ca1d_rwc_0x28x3200x352x3200.jpg?h=27319c32f75d9e1a9b554f4958a92029" class="img-fluid mb-2" alt="Imagem responsiva">
+                <img src="https://mir-s3-cdn-cf.behance.net/v1/assets/067cb60b82005d16de545719e51aaefa/84ae6e18-3bc0-4595-899a-9358e17ea836_rwc_566x223x3462x510x4595.png?h=6b1dd03c4f017fbce0a620f3cf856e5a"   class="img-fluid mb-2" alt="Imagem responsiva">
+                <img src="https://mir-s3-cdn-cf.behance.net/v1/assets/b6127d3f4c1df4b59b3096f3714775b0/0044759f-b75e-4315-b3f3-50b18351e582_rwc_0x11x3200x388x3200.jpg?h=d5c513c0b5c23add7affba9a966a97b4" class="img-fluid mb-2" alt="Imagem responsiva">
+                <img src="https://mir-s3-cdn-cf.behance.net/v1/assets/3477357d8d1709855a63fefa5fcff513/06fc415e-c1ce-4cb8-9547-b9f6ec0cd8b1_rwc_0x28x3200x353x3200.jpg?h=3b4116f230a27b64b8dd288bfa78e9b9" class="img-fluid" alt="Imagem responsiva">
+              </div>
+              <!--Imagens-->
+              <!--Contato-->
+              <div class="container d-flex align-items-center justify-content-center">
+                <h1 class="display-1">CONTATO</h1>
+              </div>
+              <div class="container d-flex align-items-center justify-content-between flex-wrap shadow-lg p-3 mb-5 bg-white rounded">
+                  
+                    <form action="">
+                        <label for="nome" class="mt-2" style=" font-size: 30px; color: orange;">NOME</label><br>
+                        <input type="text" name="formnome" id="nome" onkeyup="validaNome()">
+                        <div id="textnome"></div>
+                        <br>
+                        <br>
+                        <label for="email" style=" font-size: 30px; color: orange;">EMAIL</label><br>
+                        <input type="text" name="formemail" id="email" onkeyup="validaEmail()">
+                        <div id="textemail"></div>
+                        <br>
+                        <br>
+                        <label for="assunto" style=" font-size: 30px; color: orange;">ASSUNTO</label><br>
+                        <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                        <div id="textassunto"></div>
+                        <br><br>
+                        <button type="submit" class="btn btn-success mb-3" onclick="enviar()">Enviar</button>  
+                    </form>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3082105799494!2d-47.61534548460394!3d-22.75394048508982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c631e75bba6be7%3A0x1f70ba36095c1fc!2sOnde%20mora%20a%20gratid%C3%A3o*21*21!5e0!3m2!1spt-BR!2sbr!4v1603810823202!5m2!1spt-BR!2sbr" width="600" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+              <!--Contato-->
+              <!--Footer-->
+              <hr>
+              <footer class="d-flex justify-content-center p-5">
+                <a href="http://www.linkedin.com/in/gustavo-godoy-/" class="mr-2"><img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="linkedin" height="50px" width="50px"></a>
+                <a href="https://github.com/GustavoGodoy"><img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github" height="50px" width="50px"></a>
+
+              </footer>
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
