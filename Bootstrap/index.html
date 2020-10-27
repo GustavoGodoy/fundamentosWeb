@@ -36,7 +36,7 @@
                 <a class="nav-link" href="#imagens">Imagens</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#contato">Contato</a>
               </li>
             </li>
           </ul>
@@ -136,24 +136,25 @@
               </div>
               <!--Imagens-->
               <!--Contato-->
-              <div class="container d-flex align-items-center justify-content-center">
+              <div class="container d-flex align-items-center justify-content-center mb-5 mt-4" id="contato">
                 <h1 class="display-1">CONTATO</h1>
               </div>
-              <div class="container d-flex align-items-center justify-content-between flex-wrap shadow-lg p-3 mb-5 bg-white rounded">
+              <div class="container d-flex align-items-center justify-content-between flex-wrap shadow-lg p-4 mb-5 bg-white rounded" style="background: rgb(2,58,134);
+              background: linear-gradient(157deg, rgba(2,58,134,0.8295693277310925) 0%, rgba(255,151,60,0.4009978991596639) 100%);">
                   
-                    <form action="">
-                        <label for="nome" class="mt-2" style=" font-size: 30px; color: orange;">NOME:</label><br>
-                        <input type="text" name="formnome" id="nome" onkeyup="validaNome()">
+                    <form action="" class="pr-4" style="border-right: 3px solid orange;">
+                        <label for="nome" class="mt-2" style="font-family: 'Staatliches', cursive; font-size: 30px; color: orange;">NOME:</label><br>
+                        <input type="text" name="formnome" id="nome" class="shadow bg-white rounded"  style=" border: 0px; width: 80%;" onkeyup="validaNome()">
                         <div id="textnome"></div>
                         <br>
                         <br>
-                        <label for="email" style=" font-size: 30px; color: orange;">EMAIL:</label><br>
-                        <input type="text" name="formemail" id="email" onkeyup="validaEmail()">
+                        <label for="email" style="font-family: 'Staatliches', cursive; font-size: 30px; color: orange;">EMAIL:</label><br>
+                        <input type="text" name="formemail" id="email" class="shadow bg-white rounded" style="border: 0px; width: 80%;" onkeyup="validaEmail()">
                         <div id="textemail"></div>
                         <br>
                         <br>
-                        <label for="assunto" style=" font-size: 30px; color: orange;">ASSUNTO:</label><br>
-                        <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                        <label for="assunto" style="font-family: 'Staatliches', cursive; font-size: 30px; color: orange;">ASSUNTO:</label><br>
+                        <textarea name="assunto" id="assunto" cols="60" rows="5" class="shadow bg-white rounded"  style="border: 0px;" onkeyup="validaAssunto()"></textarea>
                         <div id="textassunto"></div>
                         <br><br>
                         <button type="submit" class="btn btn-outline-warning mb-3" onclick="enviar()">ENVIAR</button>  
